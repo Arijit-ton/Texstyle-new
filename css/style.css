@@ -1,0 +1,743 @@
+/*.....LOGO STYLE START.....*/
+.logo-img{
+	margin-left: 60px;
+	
+}
+
+
+/* .....header start...... */
+/* .....searchbar start...... */
+.searchbar{
+    position: relative;
+
+}
+.searchbar input[type="text"]{
+    border: 0;
+    padding: 0 10px;
+    width: 250px;
+    height: 42px;
+    border-radius: 3px;
+   display: inline-flex;
+   border: 2px solid #00AEE2;
+   border-radius:13px;
+
+}
+.searchbar .icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    border-radius: 5px;
+    
+}
+.searchbar .icon i{
+    position: absolute;
+    color:#00AEE2;
+    font-size: 25px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.searchbar .icon.active{
+   
+    transition: all 0.5s ease;
+
+}
+.searchbar  input[type="text"].active{
+    width: 250px;
+    padding: 0 10px;
+    transition: all 0.5s ease;
+
+}
+#search{
+    display: none;
+}
+
+@media (max-width: 575.98px) {
+    .searchbar input[type="text"]{
+        border: 0;
+        padding: 0 10px;
+        width:100%;
+        height: 42px;
+        border-radius: 3px;
+       display: inline-flex;
+       border: 2px solid #00AEE2;
+       border-radius:13px;
+    
+    }
+    .searchbar .icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 100%;
+        border-radius: 5px;
+        
+    }
+    .searchbar{
+        position: relative;
+        margin-right: 200px;
+    
+    }
+    .searchbar .icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 100%;
+        border-radius: 5px;
+        
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .searchbar input[type="text"]{
+        border: 0;
+        padding: 0 10px;
+        width: 100%;
+        height: 42px;
+        border-radius: 3px;
+       display: inline-flex;
+       border: 2px solid #00AEE2;
+       border-radius:13px;
+        }
+        .searchbar .icon{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width:  100%;
+            height: 100%;
+            border-radius: 5px;
+            
+        }
+        .searchbar{
+            position: relative;
+            margin: 20px;
+        }
+        .searchbar .icon{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 40px;
+            height: 100%;
+            border-radius: 5px;
+            
+        }
+    }
+  
+  @media (max-width: 991.98px) {
+    .searchbar input[type="text"]{
+        border: 0;
+        padding: 0 10px;
+        width: 100%;
+        height: 42px;
+        border-radius: 3px;
+       display: inline-flex;
+       border: 2px solid #00AEE2;
+       border-radius:13px;
+        }
+        .searchbar .icon{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 40px;
+            height: 100%;
+            border-radius: 5px;
+            
+        }
+        .searchbar .icon{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 40px;
+            height: 100%;
+            border-radius: 5px;
+            
+        }
+  }
+  
+  @media (max-width: 1199.98px) {
+    .searchbar input[type="text"]{
+        border: 0;
+        padding: 0 10px;
+        width: 100%;
+        height: 42px;
+        border-radius: 3px;
+       display: inline-flex;
+       border: 2px solid #00AEE2;
+       border-radius:13px;
+        }
+        .searchbar .icon{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 40px;
+            height: 100%;
+            border-radius: 5px;
+            
+        }
+        .searchbar{
+           
+            margin-right: 60px;
+        }
+        .searchbar .icon{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 40px;
+            height: 100%;
+            border-radius: 5px;
+            
+        }
+  }
+
+/* .....searchbar end...... */
+/* .....searchbar end...... */
+
+/* .........home slider start......... */
+
+.slider_img{
+    background: #eff4fa;
+}
+/* .........home slider start......... */
+
+
+
+/* ...............footer. start................... */
+.footer-sty{
+    background: #00AEE2;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.submit_btn{
+    width: auto;
+font-family: "Nunito",sans-serif;
+font-size: 15px;
+color: #717171;
+background: #EEE;
+padding: 21px 32px;
+outline: none;
+border:  none;
+margin-top: 15px;
+box-sizing: border-box;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 1px;
+transition: all 500ms ease-out 0s;
+}
+.tbox_subscr{
+    width: 69%;
+max-width: 521px;
+margin-top: 15px;
+margin-right: 1%;
+}
+.inp_subsbx{
+    height: 62px;
+padding-left: 17px;
+font-weight: 500 ;
+/* font-family: Arial,sans-serif; */
+font-size: 14px;
+color: #FFF;
+letter-spacing: 0.5px;
+box-sizing: border-box;
+border-radius: 0px;
+border: 1px solid #FFF;
+box-shadow: none;
+background: rgba(224, 219, 219, 0);
+}
+.from-subc{
+    text-align: right;
+}
+.footer_lik{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer_lik:hover{
+    text-decoration: none;
+    color: white;
+    
+}
+/* ...............//footer. end................... */
+
+/* ...............our_product start................... */
+.our_product_head{
+    font-family:sans-serif;
+    color: #717171;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+}
+.utility_bags{
+    font-family:sans-serif;
+    color: #717171;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+.see_morebtn{
+    font-family: "Nunito",sans-serif;
+    font-size: 14px;
+    color: #717171;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    display: inline-block;
+    padding: 12px 30px;
+    box-sizing: border-box;
+    border: 2px solid #717171;
+    border-radius: 32px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all 0.55s ease 0s;
+}
+.see_morebtn:hover{
+    background:#00AEE2;
+    color: #EEE;
+    border: 0px solid  #EEE;
+}
+.utility_bags_text
+{
+    
+    font-family: sans-serif;
+    color: #717171;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 25px;
+}
+
+
+
+
+
+
+/* 
+.features-grid-container{
+   
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6rem;
+}
+
+.features-grid-row#second-row{
+    flex-direction: row-reverse;
+} */
+.features-grid-row#x{
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
+
+
+
+/* ...............//our_product end................... */
+
+/* ...............about us start................... */
+.our_vision_p{
+    font-family:sans-serif;
+    font-size: 16px;
+    color: #868b8c;
+    line-height: 27px;
+}
+.our_vision_h{
+font-family:sans-serif;
+font-size: 22px;
+padding-bottom: 20px;
+text-transform: uppercase;
+color: #6bcbd0;
+
+}
+.about_pages{
+    width: 100%;
+    
+    padding: auto;
+}
+.about_card{
+    
+   
+    border: none;
+}
+
+/* ...............//about us end................... */
+/* ...............//materials start................... */
+.materials_h {
+    font-family: "Copperplate Std 31 AB",sans-serif;
+    color: #717171;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.materials_sty{
+    width: 100%;
+padding-top: 10%;
+padding-bottom: 10%;
+background: #77d9ec;
+}
+/* ...............//material end................... */
+
+/* ..................KEY PEOPLE start................ */
+.card_sty{
+    box-shadow: #717171 1px;
+    border: none;
+}
+.card_footer{
+    background: none;
+}
+
+/* ...............//KEY PEOPLE end................... */
+
+/* ..........years_section review  Start............ */
+.years_section{
+    padding: 10px;
+    background: #7fa3e4;
+    width: 100%;
+    height: 250px;
+
+
+}
+.years_section_h{
+    font-size: 24px;
+    font-weight: bold;
+}
+.years_section_n{
+    font-weight: bold;
+    font-size: 39px;
+}
+.years_section_card{
+    padding: 30px;
+    margin: 15px;
+}
+
+@media (max-width: 575.98px) {
+    .years_section{
+        
+       background: #7fa3e4;
+        width:100%;
+        height: 363px;
+    
+    }
+    .years_section_h{
+        font-size:20 px;
+        font-weight: bold;
+    }
+    .years_section_n{
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .years_section_card{
+        padding: 10px;
+        margin: 5px;
+    }
+    
+  }
+  
+  @media (max-width: 767.98px) {
+    .years_section{
+        padding: 20px;
+       background: #7fa3e4;
+        width: 100%;
+        height: 250px;
+    
+    }
+    .years_section_h{
+        font-size: 20px;
+    }
+    .years_section_n{
+        font-weight: bold;
+        font-size: 17px;
+    }
+}
+  
+  @media (max-width: 991.98px) {
+    .years_section{
+        padding: 20px;
+        background: #7fa3e4;
+        width: 100%;
+        height: 250px;
+    
+    }
+    .years_section_h{
+        font-size: 20px;
+    }
+    .years_section_n{
+        font-weight: bold;
+        font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 1199.98px) {
+    .years_section{
+        padding: 20px;
+        background: #7fa3e4;
+        width: 100%;
+        height: 250px;
+    
+    }
+    .years_section_h{
+        font-size: 22px;
+    }
+    .years_section_n{
+        font-weight: bold;
+        font-size: 19px;
+    }
+  }
+
+/* ..........years_section review end............ */
+
+/* ...........meet your everyday start............ */
+.meet_text{
+    font-family:sans-serif;
+    color: #717171;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.request_btn{
+    font-family: sans-serif;
+    font-weight: bold;
+    background: #00B5DD;
+    color: #FFF;
+    padding: 13px 54px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    border: 1px solid #00B5DD;
+    box-sizing: border-box;
+    border-radius: none;
+}
+@media (max-width: 575.98px) {
+    
+    .request_btn{
+        font-family: sans-serif;
+        font-weight: bold;
+        background: #00B5DD;
+        color: #FFF;
+        padding: 5px 15px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+        border: 1px solid #00B5DD;
+        box-sizing: border-box;
+        border-radius: none;
+        
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+   
+}
+  
+  @media (max-width: 991.98px) {
+    
+  }
+  
+
+.bg_stye{
+    background: rgba(241, 241, 238, 0.986);
+}
+/* ...........meet your everyday end............ */
+/* ...........Supply Chain & In-House Process start......... */
+.supply_chain_procesh{
+    font-family:sans-serif;
+    color: #717171;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 23px;
+    letter-spacing: 3px;
+}
+.supply_chain_card{
+    margin: 0px;
+    padding: 10px 1px 1px;
+    /* border: 2px solid rgb(189, 182, 182); */
+    width: 129px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.supply_chain_card:hover{
+    margin: 0px;
+    padding: 10px 1px 1px;
+    border: 3px solid rgb(189, 182, 182);
+    width: 131px;
+    height: 151px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.supply_chain_heading{
+    font-family: sans-serif;
+    color: #717171;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.supplychain_p1{
+  
+        font-family: sans-serif;
+        color: #717171;
+        font-size:17px;
+        margin-top: 25px;
+        letter-spacing:2px;
+   
+}
+.supply_chain_pra {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #A4A4A4;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.supply_chain_card_hovr:hover{
+    margin: 0px;
+    padding: 2px 1.5px 1px;
+    background: #f8f5e7;
+    /* width: 300px;
+    height: 240px; */
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+/* ...........Supply Chain & In-House Process end......... */
+
+/* ...............Manufacturing Process start........... */
+.manufacturing_process_h4{
+    font-family: sans-serif;
+    color: #717171;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.manufacturing_process_p{
+    font-family: sans-serif;
+        color: #717171;
+        font-size: 17px;
+        margin-top: 25px;
+        letter-spacing: 2px;
+}
+/* ...............Manufacturing Process end........... */
+
+/* ..............Fairs Exhibitions start............ */
+.fairs_exhibitions_h4{
+    font-family: sans-serif;
+    color: #717171;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.fairs_exhibitions_p{
+    font-family: sans-serif;
+    color: #717171;
+    font-size: 17px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+/* ..............Fairs Exhibitions end............ */
+
+/* .............Associations  start............ */
+.associations{
+    width: 100%;
+    background-image: url("../images/assoc_bg.jpg");
+    height: 600px;
+}
+.associations_h{
+    font-family: sans-serif;
+    
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.associations_p{
+    font-family: sans-serif;
+    
+    font-size: 17px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+/* .............Associations  end............ */
+
+/* ...........key people start........ */
+.key_people_h{
+    font-family: sans-serif;
+    color: #717171;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.img-resize{
+    border-radius: 238px;
+    max-width: 198px;
+    max-height: 195px;
+}
+}
+.key_people_p{
+    font-family: sans-serif;
+    color: #717171;
+    font-size: 17px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.key_people_comment{
+    font-family: sans-serif;
+    color: #717171;
+    font-size: 14px;
+    margin-top:2px;
+    letter-spacing: 0.5px;
+}
+.key_people_comment_n{
+    font-family: sans-serif;
+    color: #717171;
+    font-size: 16px;
+    margin-top:2px;
+    letter-spacing: 0.5px;
+}
+/* ...........key people end........ */
+/* ..................contact start........ */
+.contact_us_h{
+    font-family: sans-serif;
+    color: #717171;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.contact_us_p{
+    font-family: sans-serif;
+    color: #717171;
+    font-size: 17px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.send_query{
+    font-family: sans-serif;
+    color: #494b48;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* ..................contact end........ */
+
